@@ -143,6 +143,6 @@ def reNameTask():
 				os.rename(tempPath, distPath)
 
 if __name__=="__main__":
-    # js40017()
-    # css40017()
+    js40017()
+    css40017()
     reNameTask()

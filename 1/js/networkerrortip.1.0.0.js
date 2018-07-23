@@ -1,0 +1,1 @@
+!function(){"use strict";setTimeout(function(){window._tc_bridge_bar.set_navbar({param:{center:[{value:"无网络可用"}]}})},1),1===window._tc_bridge_public.platform?$("#androidShow").show():$("#iosShow").show()}();

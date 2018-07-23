@@ -1,0 +1,1 @@
+define("c.utilJs",function(){var i={loadingTips:'<div class="c-util-loading"><div><span></span></div></div>'};$.loadingTips=function(n){var a,d=$(".c-util-loading");d[0]||(d=$(i.loadingTips).appendTo("body")),a=$("span",d),a.html(n),a=$("span",d),d.addClass("show-loading")},$.hideLoadingTips=function(){$(".c-util-loading").removeClass("show-loading")}});

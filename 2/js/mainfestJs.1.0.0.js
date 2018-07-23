@@ -1,0 +1,1 @@
+define("mainfest",function(e,a,i){var s={lazyload:1,slider:1,"c.util":1,countDown:1,dataservice:1,dialog:1,dropRefresh:1,imgpreview:1,select:1,slider:1,tab:1,timePick:1,webp:1},t={},c={};for(var l in s)t[seajs.resolve(l)]=s[l],c[l]=s[l];return seajs.data.localcache._manifest=t,seajs.data.localcache.manifest=c,c});
